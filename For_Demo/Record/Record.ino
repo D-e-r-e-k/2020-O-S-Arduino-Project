@@ -27,7 +27,7 @@ Servo BServo;
 // Sampling frequency
 #define SF 30
 // Roughly enough mem for 600 Length
-#define MAXRECORDLENGTH 500
+#define MAXRECORDLENGTH 550
 
 unsigned char recordedGPos[MAXRECORDLENGTH];
 unsigned char recordedPPos[MAXRECORDLENGTH];
@@ -36,7 +36,7 @@ unsigned char recordedBPos[MAXRECORDLENGTH];
 int recordLength = 0;
 
 void setup() {
-  //Serial.begin(9600);
+  Serial.begin(9600);
 
   pinMode(LED_BUILTIN, OUTPUT); // light when Recording
 
@@ -75,10 +75,24 @@ void Record() {
     delay(1000/SF);
   }
   recordLength = i;
+
+  PrintRecord(recordedGPos);
+  PrintRecord(recordedPPos);
+  PrintRecord(recordedBPos);
+  Serial.print("\n");
   
   digitalWrite(LED_BUILTIN, LOW);
 }
 
+void PrintRecord(unsigned char r[]){
+  Serial.print("{ ");
+  for(int i=0; i< MAXRECORDLENGTH-1; i++) {
+    Serial.print(r[i]);
+    Serial.print(", ");
+  }
+  Serial.print(r[MAXRECORDLENGTH-1]);
+  Serial.print(" };\n");
+}
 
 void Play() {
     
