@@ -21,3 +21,8 @@ https://www.youtube.com/watch?v=QR_Oo8hpsL4&feature=youtu.be
 
 
 More documentation of the process can be find in [Progress_Documentation](https://github.com/D-e-r-e-k/2020-O-S-Arduino-Project/tree/main/Progress_Documentation).
+### Demo Video
+In the demo video, the message "Hi" is hardcoded into the program. 
+## Future
+- Due to the time limitation for the project, we were not able to implement the communication feature. By implementing it will not only makes the prototype usable, but also greatly resolve the problem caused by the limited storage space within Arduino Uno.
+- The model we adapted is not designed for this exact use case which we think it's the biggest limitation in recording accuracy. Motions are captured by positions of all three servo motor. If any of the joints or arms flexes, that movement will not be captured.
