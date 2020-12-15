@@ -12,12 +12,12 @@ Our writing mechanism as adapted from
 https://www.thingiverse.com/thing:248009#instructions
 
 We 3D printed all the parts, sanded them, and put them together.
-![Image_of_Parts](https://raw.githubusercontent.com/D-e-r-e-k/2020-O-S-Arduino-Project/main/Progress_Documentation/Parts_Manufacturing/Parts.jpg | width=240)
-![Image_of_Prototype](https://raw.githubusercontent.com/D-e-r-e-k/2020-O-S-Arduino-Project/main/Progress_Documentation/Parts_Manufacturing/Proto_Img3.jpg | width=240)
+![Image_of_Parts](https://raw.githubusercontent.com/D-e-r-e-k/2020-O-S-Arduino-Project/main/Progress_Documentation/Parts_Manufacturing/Parts.jpg)
+![Image_of_Prototype](https://raw.githubusercontent.com/D-e-r-e-k/2020-O-S-Arduino-Project/main/Progress_Documentation/Parts_Manufacturing/Proto_Img3.jpg)
 ### Recording Mechanism
 Our recording mechanism by servomotor is inspired by
 https://www.youtube.com/watch?v=QR_Oo8hpsL4&feature=youtu.be
-![Image_of_Servo](https://raw.githubusercontent.com/D-e-r-e-k/2020-O-S-Arduino-Project/main/Progress_Documentation/Servo_Modification/ServoMod2.jpg | width=240)
+![Image_of_Servo](https://raw.githubusercontent.com/D-e-r-e-k/2020-O-S-Arduino-Project/main/Progress_Documentation/Servo_Modification/ServoMod2.jpg)
 
 
 More documentation of the process can be find in [Progress_Documentation](https://github.com/D-e-r-e-k/2020-O-S-Arduino-Project/tree/main/Progress_Documentation).
